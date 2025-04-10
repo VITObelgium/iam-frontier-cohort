@@ -6,7 +6,8 @@ This repository contains all the codes used for analysing the IAM Frontier cohor
 
 - To compile all the codes, R 4.0 or later is recommended.
 - For data preparation, R package "tidyverse" and "reshape2" are required.
-- For generating plots, please install R package "gplots", "circlize", "ComplexHeatmap", and "RColorBrewer" for the desired color schemes.
+- For generating plots, please install R package "gplots", "ggbiplot", "ComplexHeatmap", and "RColorBrewer" for the desired color schemes.
+- To compute PCA of the genotype data, R package "flashpcaR" is used. The quality control is described in the genotype_qc_pca.sh file.
 
 ### Restrictions
 
